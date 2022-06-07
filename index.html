@@ -10,18 +10,6 @@
 <center>
   <button type="button" id="button" class="btn btn-dark">checking</button>
 </center>
-<script>
-  try {
-    if (navigator.userAgentData.mobile){
-      document.getElementById("button").textContent="mobile";
-    }
-    else {
-      document.getElementById("button").textContent="not mobile";
-    }
-  }
-  catch (err){
-    document.getElementById("button").textContent="your browser dont support";
-  }
-</script>
+<script src="assest/checkmobile.js"></script>
 </body>
 </html>
